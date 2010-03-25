@@ -5,4 +5,4 @@ if [ "-`which node`-" = "--" ] ; then
 	exit 1
 fi
 
-node run_tests.js
+node `dirname $0`/run_tests.js

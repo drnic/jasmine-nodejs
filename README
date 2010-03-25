@@ -1,1 +1,5 @@
-Glue that allows you to use the jasmine JavaScript testing framework ( http://github.com/pivotal/jasmine ) with nodejs.
+ABOUT
+- This project provides glue that allows you to use the jasmine JavaScript testing framework ( http://github.com/pivotal/jasmine ) with nodejs ( http://nodejs.org/ ).
+
+SETUP
+- Install node, then cd to your project directory and run ~/your/path/to/jasmine-nodejs/run_tests.sh.  It will look for a spec/ directory in your project, load spec/spec_helper.js if present, and then load all spec/(**/)*_spec.js files.
