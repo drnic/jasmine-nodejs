@@ -1,0 +1,6 @@
+---
+  name: jasmine-nodejs
+  description: Jasmine: JavaScript Testing Framework for NodeJS
+  tags: test testing jasmine
+  version: 0.10.0
+  build: rake vendor
